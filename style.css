@@ -1,0 +1,55 @@
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.form-controls {
+  margin: 20px 30px;
+}
+
+.texto-tarefa {
+  width: 40em;
+}
+
+.selected {
+  background-color: gray;
+}
+
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D1117;
+}
+
+.all-container {
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  height: fit-content;
+  min-height: 350px ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: column;
+}
+
+.btn-success {
+  border-radius: 25px;
+}
+
+.btn-danger {
+  border-radius: 25px;
+}
+
+.btn-primary {
+  border-radius: 25px;
+}
+
+.item {
+  font-size: large
+}
